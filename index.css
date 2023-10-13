@@ -1,0 +1,19 @@
+body {width: 99%; height: 100%; background-image: linear-gradient(to left,#496BDA,#1681EA,#14D3D9); background-repeat: repeat-y;}
+.Imagen {width: 100%; height: 75px; display: flex; justify-content: space-between;}
+img {width: 45%; height: 90%;padding: 1px; display: inline-block; vertical-align: top;}
+p {display: inline-block; padding-top: 0px; font-size: 150%; font-family: Verdana;}
+.contenedorpr {display: flex; justify-content: space-between;}
+.izquierda { width: 30%; height: 100%; }
+.centro { width: 35%; height: 100%; text-align: center;}
+.derecha { width: 30%; height: 100%; }
+button { background: black; cursor: pointer; border: none; padding: 10px 20px; color: #FFF; font-size: 15px; font-weight: bold;
+position: relative; border-radius: 12px;}
+button::before { content: ""; position: absolute; top: 0; left: 0; z-index: -1; width: 100%; height: 100%;
+ background-image: linear-gradient(45deg, red, blue, deeppink, blue, red,blue,deeppink, blue); background-size: 800%; border-radius:10px; filter: blur(8px);}
+ button:hover {color: orange; font-size: 17px;}
+ input {background: #5F7CD8;width: 95%; height: 17px; border-radius: 15px; font-color: black;}
+ input::placeholder {color: black;font-family: Verdana;}
+ .lista { width: 3px; height: 670px; background-color: white; }
+h4 {display: inline-block; padding-top: 0px; font-size: 20px;}
+a {text-decoration: none; color: black;}
+a:hover {color: purple;}
